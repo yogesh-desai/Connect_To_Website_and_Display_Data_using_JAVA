@@ -17,7 +17,7 @@ class WebDisplay_Data
 		System.out.print("Enter the url of website :- ");
 		String url = br.readLine();
 		
-		// Step 3: Now open the connection to the web site by calling openConnection() of URL object
+		// Step 3: Open the connection to the web site by calling openConnection() of URL object
 		URL url_adr = new URL(url);
 		URLConnection urlc = url_adr.openConnection();
 		
